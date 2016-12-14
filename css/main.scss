@@ -1,0 +1,64 @@
+---
+---
+
+// Hello! This .SCSS file is meant to override some Tachyons classes in an attempt to improve them and provide some classes that are specific to NPR.org like the font stack and (many) colors. Feel free to make additions here for your project but keep in mind the principles behind functional CSS. This is a good ~3 minute primer from Jon Gold: http://www.jon.gold/2015/07/functional-css/
+
+// Typography - All elements & layouts on NPR.org should be using one of these three typefaces. Helvetica Neue still shows up every now and then but we're ignoring that for the purposes of this toolkit.
+.gotham { }
+.knockout { }
+.georgia { }
+
+// NPR Colors - Following Tachyons' syntax, I'm including classes for text color and background color. This may be overkill, but why not? I think there's probably a better way to do this but I'll start here. Learn more about how Tachyons handles colors: http://tachyons.io/docs/themes/skins/
+
+// Blues
+.moonRaker { color: #d8e2f9; }
+.bg-moonRaker { background-color: #d8e2f9; }
+.periwinkle { color: #bccae5; }
+.bg-periwinkle { background-color: #bccae5; }
+.poloBlue { color: #7598c9; }
+.bg-poloBlue { background-color: #7598c9; }
+.shipCove { color: #6d8ac4; }
+.bg-shipCove { background-color: #6d8ac4; }
+.steelBlue { color: #5076b8; }
+.bg-steelBlue { background-color: #5076b8; }
+.waikawaGray { color: #5a7097; }
+.bg-waikawaGray { background-color: #5a7097; }
+.azure { color: #2C63ae; }
+.bg-azure { background-color: #2C63ae; }
+
+// Grays
+.wildSand { color: #f5f5f5; }
+.bg-wildSand { background-color: #f5f5f5; }
+.gallery { color: #ebebeb; }
+.bg-gallery { background-color: #ebebeb; }
+.alto { color: #e0e0e0; }
+.bg-alto { background-color: #e0e0e0; }
+.silver { color: #ccc; }
+.bg-silver { background-color: #ccc; }
+.silverTwo { color: #bbb; }
+.bg-silverTwo { background-color: #bbb; }
+.silverChalice { color: #aaa; }
+.bg-silverChalice { background-color: #aaa; }
+.dustyGray { color: #f5f5f5; }
+.bg-dustyGray { background-color: #f5f5f5; }
+.boulder { color: #ebebeb; }
+.bg-boulder { background-color: #ebebeb; }
+.doveGray { color: #e0e0e0; }
+.bg-doveGray { background-color: #e0e0e0; }
+.emperor { color: #ccc; }
+.bg-emperor { background-color: #ccc; }
+.tundora { color: #bbb; }
+.bg-tundora { background-color: #bbb; }
+.mineShaft { color: #aaa; }
+.bg-mineShaft { background-color: #aaa; }
+.mineShaftTwo { color: #ccc; }
+.bg-mineShaftTwo { background-color: #ccc; }
+.codGray { color: #bbb; }
+.bg-codGray { background-color: #bbb; }
+.blackRussian { color: #aaa; }
+.bg-blackRussian { background-color: #aaa; }
+
+// Utility Classes
+.cf {
+  clear: both;
+}

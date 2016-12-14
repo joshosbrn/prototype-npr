@@ -1,0 +1,17 @@
+# Site settings
+title: Prototype @ NPR
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Tachyons Version
+tv: "4.6.0"
+
+# Build settings
+markdown: kramdown
+
+# Exclude this stuff
+exclude: [node_modules, gulpfile.js]
+
+# Gems
+gems:
+  - jekyll-seo-tag
