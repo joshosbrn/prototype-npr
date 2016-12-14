@@ -1,5 +1,7 @@
 - name: "High Volume Homepage Card"
   include: cards/high-volume.html
+  limit:
 
 - name: "Low Volume Homepage Card"
-  include: cards/high-volume.html
+  include: cards/low-volume.html
+  limit: 

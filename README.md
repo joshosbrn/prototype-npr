@@ -1,6 +1,8 @@
 # Prototype @ NPR
 Using my prototyping framework, [Jekyons](http://tinychime.github.io/jekyons), my goal is to create a prototyping kit & component library for NPR.org. This is an NPR [Serendipity Days](http://www.npr.org/sections/inside/2011/10/14/141312774/happy-accidents-the-joy-of-serendipity-days) project.
 
+Components live in the ```_includes``` directory and are included in your markup with ``` {% include directory/module.html %} ```
+
 ## Setup
 ```
 git clone https://github.com/joshosbrn/prototype-npr.git your-project
