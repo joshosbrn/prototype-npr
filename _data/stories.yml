@@ -1,7 +1,23 @@
-- story-title:
-  slug:
-  byline:
+- story-title: "A Quinceañera Got A Million RSVPs: The Story Behind The Ritual"
+  slug: "Women & Girls"
+  byline: "Malaka Gharib"
+  byline-photo: https://media.npr.org/assets/img/2016/12/05/malaka_sq-9a89fec257c9924f5a083fa5cfffc2353a88c3d0-s100-c85.jpeg
+  publish-date: "December 13, 2016"
+  teaser: "A dad's video inviting the community to his daughter's 15th birthday party has gone viral. We talk to two experts about the origins of the tradition."
+  image: http://media.npr.org/assets/img/2016/12/14/screen-shot-2016-12-12-at-2.54.26-pm-55_wide-24c8642de6c37b95b09f5fc5ce84bcd443c12a63-s700-c85.jpg
+
+- story-title: "Arctic Is Warming At 'Astonishing' Rates, Researchers Say"
+  slug: "The Two-Way"
+  byline: "Christopher Joyce"
+  byline-photo: https://media.npr.org/assets/img/2011/12/30/chrisjoyce_4_sq-6400cfb7e806549409f12edc3aeb28ad586182a2-s100-c85.jpg
+  publish-date: "December 13, 2016"
+  teaser: "Scientists meeting in San Francisco issue their 2016 report card. The Arctic as a whole is warming at least twice as fast as the rest of the planet, one says, and it is getting progressively worse."
+  image: http://media.npr.org/assets/img/2016/12/13/15000336417_3ac27fe3ef_o_wide-8ce87c8eb739b8a6a3e619299d5ccce2eb8f43c9-s700-c85.jpg
+
+- story-title: "Beautiful Huntresses: Scientists Explain Why Mantises Evolved To Resemble Orchids"
+  slug: "The Two-Way"
+  byline: "Merrit Kennedy"
   byline-photo:
-  publish-date:
-  teaser: ""
-  image:
+  publish-date: "December 13, 2016"
+  teaser: "Typically, when insect females evolve to become larger than males, it's in order to produce more offspring. But female orchid mantises evolved to look like flowers for a sinister reason: to hunt prey."
+  image: http://media.npr.org/assets/img/2016/12/13/26610480811_ecf0be06ce_b_wide-237a744090a6aec010588d74284bda1cbc0c977e-s700-c85.jpg

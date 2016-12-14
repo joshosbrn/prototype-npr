@@ -1,5 +1,5 @@
 # Site settings
-title: Prototype @ NPR
+title: Prototyping NPR.org
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
