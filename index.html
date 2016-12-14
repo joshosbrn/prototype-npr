@@ -1,4 +1,24 @@
 ---
 layout: default
 ---
-{{ site.title }}
+<div class="pa4">
+
+  <div>
+    <h1 class="mt0 fw4 f5">{{ site.title }}</h1>
+    <p>{{ site.description }}</p>
+  </div>
+
+  <div>
+    <h1 class="mt5 fw4 f5">Components</h1>
+    <!-- This is a bit of a weird work around, but I want a list of components on this page, so I created _data/components.yml in an attempt to templatize this list of includes. There may be a better way to do this, but I'm just glad I got it to work. -->
+    <div>
+      {% for component in site.data.components %}
+        <h2 class="mt0 fw4 f5">{{ component.name }}</h2>
+        <div>
+          {% include {{ component.include }} %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+</div>

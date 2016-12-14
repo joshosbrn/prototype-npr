@@ -18,6 +18,8 @@ The first snag I hit was in the folder structure of the ```_includes``` director
 
 This ended up being a pretty easy fix. Including markup by doing something like ``` {% include directory/module.html %} ``` works perfectly. Thanks, Jekyll.
 
+The other tough thing here was figuring out a good way to render a full list of components. I'm pretty happy with the solution in index.html but I'm sure there's a much better way to do this.
+
 ### Maintainable Style Overrides
 One of the biggest blockers for this idea in the past has been the idea of maintaining the list of NPR.org SASS variables in a smart way. Since Todd's accesiblity-focused refactor of the colors a few months ago, I don't think they'll be changing any time soon so I'm officially removing this as a blocker. I may come back during housekeeping or a future Serendipity to make updates if necessary.
 

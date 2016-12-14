@@ -4,9 +4,9 @@
 // Hello! This .SCSS file is meant to override some Tachyons classes in an attempt to improve them and provide some classes that are specific to NPR.org like the font stack and (many) colors. Feel free to make additions here for your project but keep in mind the principles behind functional CSS. This is a good ~3 minute primer from Jon Gold: http://www.jon.gold/2015/07/functional-css/
 
 // Typography - All elements & layouts on NPR.org should be using one of these three typefaces. Helvetica Neue still shows up every now and then but we're ignoring that for the purposes of this toolkit.
-.gotham { }
-.knockout { }
-.georgia { }
+.gotham { font-family: 'Gotham SSm', Helvetica, Arial, sans-serif; }
+.knockout { font-family: 'Knockout 31 4r', HelveticaNeue-CondensedBold, Helvetica, Arial, sans-serif; }
+.georgia { font-family: Georgia, serif }
 
 // NPR Colors - Following Tachyons' syntax, I'm including classes for text color and background color. This may be overkill, but why not? I think there's probably a better way to do this but I'll start here. Learn more about how Tachyons handles colors: http://tachyons.io/docs/themes/skins/
 
